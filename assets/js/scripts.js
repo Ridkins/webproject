@@ -60,14 +60,14 @@ jQuery(document).ready(function() {
 		scroll_to($(this), $('nav').height());
 	});
 	// show/hide menu
-	$('.show-menu a').on('click', function(e) {
+    /*$('.show-menu a').on('click', function(e) {
 		e.preventDefault();
 		$(this).fadeOut(100, function(){ $('nav').slideDown(); });
-	});
+	}); 
 	$('.hide-menu a').on('click', function(e) {
 		e.preventDefault();
 		$('nav').slideUp(function(){ $('.show-menu a').fadeIn(); });
-	});
+	});*/
     
     /*
         Fullscreen backgrounds
