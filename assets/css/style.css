@@ -231,13 +231,13 @@ img { max-width: 100%; }
 /***** Top menu *****/
 
 nav {
-	display: none;
+	display: block;
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
 	z-index: 998;
-	background: #8ec1cd;
+	background: #306c99;
 	font-size: 18px;
 	color: #fff;
     line-height: 32px;
@@ -329,7 +329,7 @@ nav a:focus { color: #eee; outline: 0; }
 	height: 120px;
     margin: 0 auto;
 	padding-top: 30px;
-	background: #8ec1cd;
+	background: #306c99;
 	-moz-border-radius: 65px; -webkit-border-radius: 65px; border-radius: 65px;
     font-size: 50px;
     color: #fff;
