@@ -1,6 +1,10 @@
+/*
 #pricing-table {
   padding-top: 50px;
 }
+*/
+
+
 #pricing-table .pricing {
   marign: 0;
   padding: 0;
@@ -567,7 +571,7 @@ nav a:focus { color: #eee; outline: 0; }
 
 
 /***** Contact us *****/
-
+/*
 .contact-form {
 	padding-top: 30px;
 	padding-bottom: 20px;
@@ -595,9 +599,103 @@ nav a:focus { color: #eee; outline: 0; }
 .contact-form form button { width: 95%; }
 
 .contact-form form .contact-error { border-color: #8ec1cd; }
-
+*/
 
 /***** Footer *****/
+/*=================================================================
+	Contact
+==================================================================*/
+
+.input-field {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    border: 1px solid #ececec;
+    border-radius: 0;
+    box-shadow: none;
+    color: #818181;
+    font-size: 16px;
+    height: 50px;
+}
+
+textarea.form-control {
+    width: 100%;
+    height: 165px;
+}
+
+#submit:hover {
+  color: #fff;
+}
+
+#submit:before {
+  background-color: #0A85BB;
+}
+
+#submit.btn-effect:after {
+  background: #2E2E2E;
+}
+
+.contact-details h3 {
+    border-bottom: 1px solid #306c99;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.contact-details p {
+    line-height: 30px;
+}
+
+.contact-details p i {
+    margin-right: 10px;
+}
+
+.contact-details span {
+    display: block;
+    margin-left: 24px;
+}
+/*=======================================
+    SERVICE SECTION STYLES
+==================================================*/
+#services-inner {
+    padding-top:50px;
+    padding-bottom:40px;
+}
+
+.service-div {
+	width: 100%;
+	min-height: 100px;
+	background-color: #F2F4F6;
+	box-shadow: none;
+	border: 0;
+    padding:20px;
+    margin-bottom:30px;
+}
+.service-div > i {
+    color:rgba(252, 64, 101, 1);
+}
+
+
+.bk-color-blue {
+    background-color: #306c99;
+}
+
+.icon-round {
+    margin-top: 30px;
+    font-size: 24px;
+    height: 68px;
+    width: 68px;
+    line-height: 68px;
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 10px;
+    border-radius: 100%;
+}
+
 
 footer {
 	padding: 25px 0 20px 0;
