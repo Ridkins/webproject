@@ -609,6 +609,27 @@ nav a:focus { color: #eee; outline: 0; }
 .input-field {
     margin-bottom: 10px;
 }
+.contact-form
+{
+	margin-top:28px;
+}
+.fa-twitter  
+{
+	color:#4099FF;
+}
+.fa-facebook
+{
+	color: #3b5998;
+}
+.fa-vk
+{
+	color:#507299;
+}
+
+.glyphicon-pencil, .fa-phone, .fa-envelope
+{
+	color:#306c99;
+}
 
 .form-control {
     border: 1px solid #ececec;
@@ -646,6 +667,9 @@ textarea.form-control {
 
 .contact-details p {
     line-height: 30px;
+	text-align: left;
+	font-size: 18px;
+    margin-top: 20px;
 }
 
 .contact-details p i {
@@ -654,7 +678,10 @@ textarea.form-control {
 
 .contact-details span {
     display: block;
-    margin-left: 24px;
+    margin-left: 31px;
+}
+figure, p, address {
+    margin: 0;
 }
 /*=======================================
     SERVICE SECTION STYLES
@@ -694,6 +721,11 @@ textarea.form-control {
     display: inline-block;
     margin-bottom: 10px;
     border-radius: 100%;
+}
+
+.glyphicon glyphicon-pencil
+{
+	color:#306c99;
 }
 
 
