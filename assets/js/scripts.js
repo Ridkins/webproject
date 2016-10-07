@@ -60,7 +60,10 @@ jQuery(document).ready(function() {
 		e.preventDefault();
 		scroll_to($(this), $('nav').height());
 	});
-	
+	$('a.big-link-1').on('click', function(e) {
+		e.preventDefault();
+		scroll_to($(this), $('nav').height());
+	});	
 	// show/hide menu
     /*$('.show-menu a').on('click', function(e) {
 		e.preventDefault();

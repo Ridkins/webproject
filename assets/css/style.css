@@ -625,7 +625,10 @@ nav a:focus { color: #eee; outline: 0; }
 {
 	color:#507299;
 }
-
+.fa-instagram
+{
+	color:#000;
+}
 .glyphicon-pencil, .fa-phone, .fa-envelope
 {
 	color:#306c99;
